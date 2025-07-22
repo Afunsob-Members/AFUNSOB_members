@@ -14,7 +14,7 @@ st.markdown(
 
 st.text(" ")
 
-st.markdown("<h2 style='text-align: center;'>Members of AFUNSOB (Retiree, Pension & Index Number)</h2>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center;'>AFUNSOB Members Info</h1>", unsafe_allow_html=True)
 st.markdown("<h2 style='text-align: center;'>As of  29 August 2024</h2>", unsafe_allow_html=True)
 st.markdown("<h3 style='text-align: center;'>Total Members: 358</h3>", unsafe_allow_html=True)
 

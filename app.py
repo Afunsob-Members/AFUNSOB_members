@@ -19,6 +19,7 @@ st.markdown("<h2 style='text-align: center;'>As of  29 August 2024</h2>", unsafe
 st.markdown("<h3 style='text-align: center;'>Total Members: 358</h3>", unsafe_allow_html=True)
 
 df = pd.read_excel('Members_List.xlsx', engine = "openpyxl")
+df['UID No.'] = df['UID No.'].astype(str).str.zfill(9)
 
 st.text(" ")
 
